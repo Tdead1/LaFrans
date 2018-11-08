@@ -75,3 +75,7 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# Autosaves and other backup files can be ignored too.
+Project/Saved/*
+Project/Saved/Autosaves/*

@@ -1,0 +1,53 @@
+DlgVersion 7
+DlgName "DLG_Test"
+DlgGuid {  A 1048567208 B 1199100487 C 1725398160 D 168143572 }
+Node_Speech StartNode
+{
+	Text ""
+	SpeakerState "None"
+	bIsVirtualParent False
+	OwnerName "None"
+	bCheckChildrenOnEvaluation False
+	VoiceSoundWave ""
+	VoiceDialogueWave ""
+	Children { {  TargetIndex 0 Text "Next" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+}
+DlgParticipantClasses
+{
+	{  ParticipantName "Player" ParticipantClass "" }
+	{  ParticipantName "NPC" ParticipantClass "" }
+}
+Node Nodes
+{
+	// 0
+	Node_Speech 
+	{
+		Text "Hi!"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Player"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 1 Text "Next" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 1
+	Node_Speech 
+	{
+		Text "Hello there, general Kenobi."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "NPC"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 2 Text "Finish" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 2
+	Node_End 
+	{
+		OwnerName "Player"
+		bCheckChildrenOnEvaluation False
+		EnterEvents { {  ParticipantName "Player" EventType "EDlgEventType::DlgEventModifyBool" EventName "DialogueFinished" IntValue 0 FloatValue 0.0 NameValue "None" bDelta False bValue True } }
+	}
+}

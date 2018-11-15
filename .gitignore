@@ -79,3 +79,21 @@ DerivedDataCache/*
 # Autosaves and other backup files can be ignored too.
 Project/Saved/*
 Project/Saved/Autosaves/*
+Project/Intermediate/AssetRegistryCache/311563bb.bin
+Project/Intermediate/AssetRegistryCache/4ca33f71.bin
+Project/Intermediate/AssetRegistryCache/9456d10d.bin
+Project/Intermediate/AssetRegistryCache/9f90ff24.bin
+Project/Intermediate/AssetRegistryCache/c90e3f55.bin
+Project/Intermediate/AssetRegistryCache/dddf43f0.bin
+Project/Intermediate/CachedAssetRegistry.bin
+Project/Intermediate/Config/CoalescedSourceConfigs/DlgSystem.ini
+Project/Intermediate/Config/CoalescedSourceConfigs/EditorPerProjectUserSettings.ini
+Project/Intermediate/Config/CoalescedSourceConfigs/Engine.ini
+Project/Intermediate/Config/CoalescedSourceConfigs/Input.ini
+Project/Intermediate/Staging/LaFrans.upluginmanifest
+Project/Saved/Autosaves/PackageRestoreData.json
+Project/Saved/AutoScreenshot.png
+Project/Saved/Config/CrashReportClient/UE4CC-Windows-7F82713A43896255AAEFC6B06CC34E76/CrashReportClient.ini
+Project/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+Project/Saved/Config/Windows/Game.ini
+Project/Saved/Logs/LaFrans.log

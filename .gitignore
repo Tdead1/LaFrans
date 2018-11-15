@@ -97,3 +97,6 @@ Project/Saved/Config/CrashReportClient/UE4CC-Windows-7F82713A43896255AAEFC6B06CC
 Project/Saved/Config/Windows/EditorPerProjectUserSettings.ini
 Project/Saved/Config/Windows/Game.ini
 Project/Saved/Logs/LaFrans.log
+
+# Builds.
+Project/BUILD/*
